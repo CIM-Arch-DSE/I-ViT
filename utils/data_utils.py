@@ -8,6 +8,8 @@ from timm.data.constants import IMAGENET_DEFAULT_MEAN, IMAGENET_DEFAULT_STD
 from timm.data import create_transform
 
 from .samplers import RASampler
+import sys
+sys.path.append('ivit/utils/')
 import utils
 
 
